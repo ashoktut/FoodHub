@@ -38,7 +38,7 @@
   /** warning **/
   --ion-color-warning: #ffce00;
   --ion-color-warning-rgb: 255, 206, 0;
-  --ion-color-warning-contrast: #ffffff;
+  --ion-color-warning-contrast: #000000;
   --ion-color-warning-contrast-rgb: 255, 255, 255;
   --ion-color-warning-shade: #e0b500;
   --ion-color-warning-tint: #ffd31a;
@@ -58,6 +58,13 @@
   --ion-color-dark-contrast-rgb: 255, 255, 255;
   --ion-color-dark-shade: #1e2023;
   --ion-color-dark-tint: #383a3e;
+
+  // ion-tab-button.tabselected {
+  //   ion-icon, ion-label {
+  //     color: var(--ion-color-dark) !important;
+  //     --ion-color-base: var(--ion-color-warning-shade) !important;
+  //   }
+  // }
 
   /** medium **/
   --ion-color-medium: #989aa2;
