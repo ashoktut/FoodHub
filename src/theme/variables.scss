@@ -81,4 +81,18 @@
   --ion-color-light-contrast-rgb: 0, 0, 0;
   --ion-color-light-shade: #d7d8da;
   --ion-color-light-tint: #f5f6f9;
+
+    /** kasi **/
+    --ion-color-kasi: #ffcc66;
+    --ion-color-kasi-rgb: 255, 204, 102;
+    --ion-color-kasi-contrast: #000000;
+    --ion-color-kasi-contrast-rgb: 0, 0, 0;
+    --ion-color-kasi-shade: #e0b45a;
+    --ion-color-kasi-tint: #ffd175;
+}
+
+.ion-color-kasi {
+  --ion-color-base: var(--ion-color-kasi);
+  --ion-color-base-rgb: var(--ion-color-kasi-rgb);
+  
 }

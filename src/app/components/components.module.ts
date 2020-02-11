@@ -4,6 +4,7 @@ import { SlidesComponent } from './slides/slides.component';
 import { LogoComponent } from './logo/logo.component';
 import { StartComponent } from './start/start.component';
 import { IonicModule } from '@ionic/angular';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -11,7 +12,9 @@ import { IonicModule } from '@ionic/angular';
   declarations: [SlidesComponent, LogoComponent, StartComponent],
   exports: [SlidesComponent, LogoComponent, StartComponent],
   imports: [
-    CommonModule, IonicModule
+    CommonModule,
+    FormsModule,
+    IonicModule,
   ]
 })
 export class ComponentsModule { }
