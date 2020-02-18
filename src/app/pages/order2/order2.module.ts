@@ -1,17 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+
 import { IonicModule } from '@ionic/angular';
-import { HomePage } from './home.page';
-import { HomeRouter } from './home.router';
+
+import { Order2PageRoutingModule } from './order2-routing.module';
+
+import { Order2Page } from './order2.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    HomeRouter,
+    Order2PageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [Order2Page]
 })
-export class HomePageModule {}
+export class Order2PageModule {}
