@@ -14,9 +14,13 @@
   "private": true,
   "dependencies": {
     "@angular-devkit/build-angular": "^0.803.24",
+    "@angular/animations": "^9.0.2",
+    "@angular/cdk": "^9.0.0",
     "@angular/common": "~8.1.2",
     "@angular/core": "~8.1.2",
+    "@angular/flex-layout": "^9.0.0-beta.29",
     "@angular/forms": "~8.1.2",
+    "@angular/material": "^9.0.0",
     "@angular/platform-browser": "~8.1.2",
     "@angular/platform-browser-dynamic": "~8.1.2",
     "@angular/router": "~8.1.2",
@@ -55,7 +59,7 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
-    "typescript": "~3.4.3"
+    "typescript": "^3.7.5"
   },
   "description": "An Ionic project"
 }
