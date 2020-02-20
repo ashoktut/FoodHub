@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule,FormGroup } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
@@ -12,6 +12,8 @@ import { CheckoutPage } from './checkout.page';
   imports: [
     CommonModule,
     FormsModule,
+    /*FormGroup,*/
+    ReactiveFormsModule,
     IonicModule,
     CheckoutPageRoutingModule
   ],

@@ -14,6 +14,12 @@ ion-input{
 ion-button{
     margin-left: 100px;
 }
+.deliv{
+    margin-left: -2px;
+}
+.collect{
+    border-color: #81daad
+}
 .success{
     color: #068d3a;
 }
@@ -22,4 +28,7 @@ ion-button{
     font-size: 45px;
     cursor: pointer;
     margin-top: -5px;
+}
+.error-message{
+    color: var(--ion-color-danger);
 }

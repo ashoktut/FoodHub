@@ -20,27 +20,41 @@ export interface Prods{
   amount: number;
   image: ImageBitmap;
 }
+
+const ITEMS_KEY = 'myItems';
 @Injectable({
   providedIn: 'root'
 })
 export class CartService {
 
+  //read
+  getItems(){
+
+  }
+
   data: Product[] = [
-    {id:0, name:'Chicken&Wors', price:47.99, amount:1},
+    {id:0, name:'Full Chicken', price:47.99, amount:1},
     {id:1, name:'BBQ Beef', price:52.99, amount:1},
+    {id:2, name:'Beef&Wors', price:44.99, amount:1},
+    {id:2, name:'Wors', price:60.99, amount:1},
     {id:2, name:'1/4 Ribs', price:66.99, amount:1},
   ];
 
   dat: Products[] = [
-    {id:0, name:'Chips', price:47.99, amount:1},
-    {id:1, name:'BBQ Beef', price:52.99, amount:1},
-    {id:2, name:'1/4 Ribs', price:66.99, amount:1},
+    {id:0, name:'Chips', price:22.94, amount:1},
+    {id:1, name:'Kota: Russian,Cheese,Eggs', price:32.99, amount:1},
+    {id:2, name:'Kota: Vianna,Polony,Garlic', price:18.99, amount:1},
+    {id:2, name:'Kota: Russian,Polony,Garlic', price:20.99, amount:1},
+    {id:2, name:'Kota: Beef', price:18.99, amount:1}
   ];
 
   datas: Products[] = [
-    {id:0, name:'Chips', price:47.99, amount:1},
-    {id:1, name:'Mogodu&Pap', price:52.99, amount:1},
-    {id:2, name:'Maotwana&Pap', price:66.99, amount:1},
+    {id:0, name:'Skopo', price:29.99, amount:1},
+    {id:1, name:'Mogodu&Pap', price:43.99, amount:1},
+    {id:2, name:'Marapo', price:19.99, amount:1},
+    {id:2, name:'Chicken&Pap', price:28.99, amount:1},
+    {id:2, name:'2 Wings', price:15.99, amount:1},
+    {id:2, name:'Maotwana&Pap', price:19.99, amount:1},
   ];
 
   private cart = [];
